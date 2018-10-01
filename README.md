@@ -1,9 +1,11 @@
 # BeerGuru
 
+Site is published at: https://beerguru-luke.herokuapp.com
+
 ## Technologies
 
 - Express
-- React
+- SSR React
 - React Router
 - React Helmet
 - React Loadable
