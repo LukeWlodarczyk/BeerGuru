@@ -62,7 +62,7 @@ class SearchBeer extends Component {
 					{!isError &&
 						!isLoading &&
 						beers.length !== 0 && <BeerList beerList={beers} />}
-					{!isError && !isLoading && && beers.length === 0 <p>No beers listed...</p>}
+					{!isError && !isLoading && beers.length === 0 && <p>No beers listed...</p>}
 				</ul>
 			</div>
 		);
